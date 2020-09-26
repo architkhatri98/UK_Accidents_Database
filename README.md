@@ -1,28 +1,48 @@
-# DBMS-UF-UK_Accidents
+#UK Accidents Database Application
 
-<h3> The Schema \m/</h3>
+<h4>Accidents Table</h4>
 
-➢ Vehicles (v-id: integer, d-id: integer, driven_by: integer, point of impact: integer, type of vehicle: string, engine type: string, type of axle: string, ownership: string, no of wheels: integer)
+![Alt text](../master/Column%20Names/Accident.jpg?raw=true "Accidents column")
 
-➢ Driver (d-id: integer, age: integer, sex: string, age band: integer)
+<h5> ------------------------------------------------------------- </h5>
 
-➢ Accidents (c-id: integer, idx: integer, l-id: integer, condition: integer, loc: integer, day of week: integer, severity: integer, a_time: time, a_date: date, no of vehicles: integer)
+<h4>Casualty Table</h4>
 
-➢ Conditions (c-id: integer, light: string, weather: string, road: string)
-➢ Casualties (idx: integer, accidents: integer, type: string, class: string, sex: string, age: integer, age band: integer, severity: integer)
+![Alt text](../master/Column%20Names/Casualty.jpg?raw=true "Casualty column")
 
-➢ Location (l-id: integer, road: string, link length: double, road type: string, speed limit: integer, latitude: double, longitude: double, easting: double, northing: double, junction start: string, junction end: string, junction length: double)
+<h5>-------------------------------------------------------------</h5>
 
-➢ Region (l-id: integer, local authority: string, type of region: string)
+<h4>Conditions Table</h4>
 
-➢ Involves (d-id: integer, v-id: integer, c-id: integer, idx: integer, l-id: integer)
+![Alt text](../master/Column%20Names/Conditions.jpg?raw=true "Conditions column")
 
-➢ Occur In (c-id: integer, l-id: integer)
+<h5>-------------------------------------------------------------</h5>
 
+<h4>Driver Table</h4>
 
+![Alt text](../master/Column%20Names/Driver.jpg?raw=true "Driver column")
 
-To-Do List:
+<h5>-------------------------------------------------------------</h5>
 
-1. Create Primary Key for each table using the Schema.
-2. Create individual CSV files for each entity.
-3. Complete the list
+<h4>Location Table</h4>
+
+![Alt text](../master/Column%20Names/Location.jpg?raw=true "Location column")
+
+<h5>-------------------------------------------------------------</h5>
+
+<h4>Region Table</h4>
+
+![Alt text](../master/Column%20Names/Region.jpg?raw=true "Region column")
+
+<h5>-------------------------------------------------------------</h5>
+
+<h4>Vehicle Table</h4>
+
+![Alt text](../master/Column%20Names/Vehicle.jpg?raw=true "Vehicle column")
+
+<h5>-------------------------------------------------------------</h5>
+
+<h3>Web Page Diagram</h3>
+
+![Alt text](../master/Web_Page_Diagram.png?raw=true "Web Page Diagram")
+
