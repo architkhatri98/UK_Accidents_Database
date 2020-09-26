@@ -1,5 +1,11 @@
 <h1>UK Accidents Database Application</h1>
 
+<h3>ER Diagram</h3>
+
+![Alt text](../master/UK_accidents_ER_Diagram.jpeg?raw=true "ER Diagram")
+
+<h5> ------------------------------------------------------------- </h5>
+
 <h4>Accidents Table</h4>
 
 ![Alt text](../master/Column%20Names/Accident.jpg?raw=true "Accidents column")
